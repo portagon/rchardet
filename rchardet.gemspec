@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.has_rdoc         = false # TODO: fix
   s.extra_rdoc_files = ['README.markdown', 'COPYING']
   
-  s.add_development_dependency('rspec')
+  s.add_development_dependency('rspec', '~> 3.0')
 end

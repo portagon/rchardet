@@ -6,10 +6,10 @@ describe CharDet do
   end
   
   it "should have two accessor methods" do
-    lambda {
+    expect {
       @unknown.encoding
       @unknown.confidence
-    }.should_not raise_error(NoMethodError)
+    }.not_to raise_error
   end
   
   it "should return the right content" do
